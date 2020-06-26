@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "498562015103",
+    "firebase_url": "https://trigiapp.firebaseio.com",
+    "project_id": "trigiapp",
+    "storage_bucket": "trigiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498562015103:android:e9efd0d25110393b58044a",
+        "android_client_info": {
+          "package_name": "com.example.trigiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498562015103-m609gm9lado7382863jr7ub4nmv8da77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trigiapp",
+            "certificate_hash": "2f3af9e05340e95c1167bae1b5fbc2f3d071f6a7"
+          }
+        },
+        {
+          "client_id": "498562015103-kvnusaklg17fmoh8i5rfd163b0u2sg4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1NVxMiJddtQjXXCmz943lRRolUiPsR8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498562015103-kvnusaklg17fmoh8i5rfd163b0u2sg4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".profile_code"
+  >
+
+  <TextView
+    android:id="@+id/textView8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="36dp"
+    android:fontFamily="@font/poppins_medium"
+    android:gravity="center"
+    android:text="Il tuo Codice Assegnato:"
+    android:textColor="@color/home1"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+    android:id="@+id/textView13"
+    android:layout_width="185dp"
+    android:layout_height="33dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/borderwindow"
+    android:gravity="center"
+    android:text="356890"
+    android:textColor="@color/home1"
+    android:textSize="18sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+  <TextView
+    android:id="@+id/textView14"
+    android:layout_width="413dp"
+    android:layout_height="94dp"
+    android:layout_marginTop="24dp"
+    android:background="@drawable/borderwindow"
+    android:fontFamily="@font/poppins_medium"
+    android:gravity="left"
+    android:textColor="@color/navbar"
+    android:textSize="12dp"
+    android:paddingLeft="20dp"
+    android:text="Questo è il tuo codice che ti abbiamo assegnato, esso è univoco e ti identifica. Per la tua privacy ci avvaliamo solo di esso cosi da non comunicare dati sensibili"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+  <TextView
+    android:id="@+id/textView9"
+    android:layout_width="412dp"
+    android:layout_height="30dp"
+    android:layout_marginBottom="28dp"
+    android:gravity="center"
+    android:text="La tua Priorità:"
+    android:textColor="@color/home1"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toTopOf="@+id/priority"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+    android:id="@+id/priority"
+    android:layout_width="186dp"
+    android:layout_height="31dp"
+    android:layout_marginBottom="328dp"
+    android:background="@drawable/borderwindow"
+    android:gravity="center"
+    android:textColor="@color/home1"
+    android:textSize="20sp"
+
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+    android:id="@+id/textView12"
+    android:layout_width="130dp"
+    android:layout_height="84dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="70dp"
+    android:fontFamily="@font/poppins_medium"
+    android:textSize="12dp"
+    android:textColor="@color/navbar"
+    android:text="Priorità 1:  Priorità massima rispetto al codice verde e codice bianco"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/priority" />
+
+  <TextView
+    android:id="@+id/textView15"
+    android:layout_width="135dp"
+    android:layout_height="100dp"
+    android:textColor="@color/navbar"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="70dp"
+    android:fontFamily="@font/poppins_medium"
+    android:text="Priorità 2: Priorità media , un intermezzo tra codice giallo e codice bianco "
+    android:textSize="12dp"
+    app:layout_constraintStart_toEndOf="@+id/textView12"
+    app:layout_constraintTop_toBottomOf="@+id/priority" />
+
+  <TextView
+    android:id="@+id/textView16"
+    android:layout_width="110dp"
+    android:layout_height="152dp"
+    android:layout_marginTop="70dp"
+    android:layout_marginEnd="5dp"
+    android:textColor="@color/navbar"
+    android:fontFamily="@font/poppins_medium"
+    android:text="Priorità 3: Priorità minima, minore tempestività nell'intervento rispetto al codice giallo ed al codice verde"
+    android:textSize="12dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toEndOf="@+id/textView15"
+    app:layout_constraintTop_toBottomOf="@+id/priority" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".Prenotato">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="154dp"
+    android:background="@color/home1"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/textView4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="70dp"
+      android:fontFamily="@font/poppins_medium"
+      android:textColor="@android:color/white"
+      android:textSize="17dp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="169dp"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/textView5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginRight="20dp"
+      android:fontFamily="@font/poppins_medium"
+      android:text="2. Seleziona la zona del corpo dove hai subito il trauma o senti dolore"
+      android:textColor="@color/home1"
+      android:textSize="15dp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+      android:id="@+id/testaB"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginRight="30dp"
+      android:background="@drawable/border_button"
+      android:text="Testa" />
+
+    <Button
+      android:id="@+id/centroB"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="30dp"
+      android:background="@drawable/border_button"
+      android:text="ZONA CENTRALE COMPRESA DI ARTI SUPERIORI" />
+
+    <Button
+      android:id="@+id/inferioreB"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginRight="30dp"
+      android:background="@drawable/border_button"
+      android:text="ZONA BASSA COMPRESA DI ARTI INFERIORI" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal">
+
+      <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_button"
+        android:paddingRight="70dp"
+        android:drawableRight="@drawable/ic_baseline_chevron_left_24"
+        android:layout_weight="1"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/home1"
+
+         />
+
+      <Button
+        android:id="@+id/next"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/border_button"
+        android:textColor="@color/home1"
+        android:drawableLeft="@drawable/ic_baseline_chevron_right_24"
+        android:paddingLeft="75dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        />
+    </LinearLayout>
+  </LinearLayout>
+
+</LinearLayout>

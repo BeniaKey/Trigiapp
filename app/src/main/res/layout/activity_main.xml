@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+
+  tools:context=".MainActivity" >
+
+
+  <LinearLayout
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="189dp"
+    android:background="@color/home1"
+    android:orientation="vertical"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="40sp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="left"
+        android:text="Benvenuti su Trigiapp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+      <ImageView
+        android:id="@+id/google_maps"
+        android:layout_width="86dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/googlemaps" />
+
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/prenota"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      android:layout_marginLeft="40dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginRight="40dp"
+      android:background="@drawable/custom_button"
+      android:gravity="center"
+      android:text="Prenota"
+      android:textColor="@android:color/white"
+
+      android:textSize="15dp" />
+
+
+  </LinearLayout>
+
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottomNavigationView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/home1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:menu="@menu/menu_text"
+    app:itemIconTint="@color/draw_item"
+    app:itemTextColor="@color/draw_item"
+    app:itemBackground="@android:color/white"
+    />
+
+  <FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="414dp"
+    android:layout_height="477dp"
+
+    app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+
+  </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

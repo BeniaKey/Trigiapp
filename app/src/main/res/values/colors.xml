@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#2554C7</color>
+    <color name="btnColor">#54C571</color>
+    <color name="home1">#2554C7</color>
+    <color name="home2">#FDD017</color>
+    <color name="navbar">#708090</color>
+    <color name="codicegi">#fffacd</color>
+    <color name="lightgray">#d3d3d3</color>
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=2F:3A:F9:E0:53:40:E9:5C:11:67:BA:E1:B5:FB:C2:F3:D0:71:F6:A7%3Bcom.example.trigiapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.trigiapp
+
+    SHA-1 certificate fingerprint:
+    2F:3A:F9:E0:53:40:E9:5C:11:67:BA:E1:B5:FB:C2:F3:D0:71:F6:A7
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBVInomQOhXh9IldUbhewk5xGxhby3555U</string>
+</resources>
